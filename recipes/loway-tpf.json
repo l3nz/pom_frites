@@ -1,0 +1,13 @@
+{
+	"group": "loway",
+	"artifact": "loway-tpf",
+	"license": "Loway - All rights reserverd",
+	"depends": [
+		"org.slf4j:slf4j-api:1.6.3",
+		"javax.mail:mail:1.4.7"
+	],
+	"testdepends": [
+	    "org.slf4j:slf4j-jdk14:1.6.3"
+	]
+}
+
