@@ -69,8 +69,9 @@ puts "Jar: #{jarfile} Project: #{project} Version: #{version} Reporoot: #{reporo
 json = File.read("./recipes/#{project}.json")
 cfg = JSON.parse(json)
 
+groupdir = cfg['group'].gsub('.','/')
 
-jarfolder = "#{reporoot}/#{cfg['group'].gsub('.','/')}/#{version}"
+jarfolder = "#{reporoot}/#{groupdir}/#{cfg['artifact']}/#{version}"
 artiver = "#{cfg['artifact']}-#{version}"
 newjar = "#{jarfolder}/#{artiver}.jar"
 newpom = "#{jarfolder}/#{artiver}.pom"
@@ -78,6 +79,7 @@ newpom = "#{jarfolder}/#{artiver}.pom"
 
 #pp cfg
 puts "Copy to: #{newjar} in #{jarfolder}"
+
 
 # create folder
 %x[ mkdir -p #{jarfolder} ]
