@@ -1,0 +1,10 @@
+{
+	"group": "loway",
+	"artifact": "tpfgwt-client",
+	"license": "Loway - All rights reserverd",
+	"depends": [
+	],
+	"testdepends": [
+	]
+}
+

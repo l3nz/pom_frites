@@ -1,10 +1,14 @@
 {
 	"group": "loway",
 	"artifact": "loway-tpf",
-	"license": "Loway - All rights reserverd",
+	"license": "Loway - All rights reserved",
 	"depends": [
 		"org.slf4j:slf4j-api:1.6.3",
-		"javax.mail:mail:1.4.7"
+		"javax.mail:mail:1.4.7",
+                "org.kohsuke.redstone:redstone:1.1.1",
+		"com.fasterxml.jackson.core:jackson-annotations:2.2.2",
+		"com.fasterxml.jackson.core:jackson-core:2.2.2",
+		"com.fasterxml.jackson.core:jackson-databind:2.2.2"		
 	],
 	"testdepends": [
 	    "org.slf4j:slf4j-jdk14:1.6.3"
