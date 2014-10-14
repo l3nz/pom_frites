@@ -1,0 +1,10 @@
+{
+	"group": "misc",
+	"artifact": "gwt-visualization",
+	"license": "GOOGLE - MIT",
+	"depends": [
+	],
+	"testdepends": [
+	]
+}
+
