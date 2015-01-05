@@ -3,7 +3,7 @@
 	"artifact": "tpfgwt-server",
 	"license": "Loway - All rights reserved",
 	"depends": [
-		"loway:loway-tpf:245p",
+		"loway:loway-tpf:246p",
                 "mysql:mysql-connector-java:5.1.30"
 	],
 	"testdepends": [

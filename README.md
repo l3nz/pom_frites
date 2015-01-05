@@ -33,3 +33,7 @@ Examples
      -r /var/www/html/maven
 
    ./pomfrite -p loway-tpf -v 245p      -j /home/pubsamba/for_wombat/loway/loway-tpf-245p.jar -r /var/www/html/maven
+
+  ./pomfrite -p gwt-softphone -v 150105S221FC35      -j ./gwt_softphone-150105S221FC35.jar      -r /var/www/html/maven
+
+

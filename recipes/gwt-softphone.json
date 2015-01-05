@@ -1,0 +1,10 @@
+{
+	"group": "loway",
+	"artifact": "gwt-softphone",
+	"license": "Loway - All rights reserved",
+	"depends": [
+	],
+	"testdepends": [
+	]
+}
+
