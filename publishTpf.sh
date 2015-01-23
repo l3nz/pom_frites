@@ -10,7 +10,7 @@ fi
 SRC=$2
 VER=$1
 
-SRV=$SRC/loway-tpf-${VER}p.jar
+SRV=$SRC/loway-tpf-${VER}.jar
 assertFile $SRV
-./pomfrite  -p tpfgwt-server -v $VER -j $SRV -r /var/www/html/maven  
+./pomfrite  -p loway-tpf -v $VER -j $SRV -r /var/www/html/maven  
 
