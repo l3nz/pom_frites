@@ -1,0 +1,9 @@
+{
+	"group": "loway",
+	"artifact": "pam-101voice",
+	"license": "Loway - All rights reserverd",
+	"depends": [
+	],
+	"testdepends": [
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"group": "loway",
+	"artifact": "pam-interface",
+	"license": "Loway - All rights reserverd",
+	"depends": [
+	],
+	"testdepends": [
+	]
+}
