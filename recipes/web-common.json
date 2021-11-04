@@ -3,7 +3,7 @@
 	"artifact": "web-common",
 	"license": "Loway - All rights reserved",
 	"depends": [
-		"org.slf4j:slf4j-api:1.6.3",
+		"org.slf4j:slf4j-api:1.7.25",
 		"javax.mail:mail:1.4.7",
 		"com.fasterxml.jackson.core:jackson-databind:2.9.10.2",
 		"org.apache.httpcomponents:httpclient:4.5.2"            
